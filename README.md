@@ -7,7 +7,7 @@ inspired by some old arma2 mission mods
 (authors mentioned inside scripts)
 code by W4lly63
 
-ALPHA 0.01 Version.  
+ALPHA 0.01 Version.  (pre version - optimized 40%)
 if someone want help / add /rework better 
 contact me to giulfy@hotmail.com is welcome!!
 
@@ -23,6 +23,7 @@ Description/Features
 
 - Radioactive explosione with particleeffect at random time inside Rzone with damage of buildings ,vehicles,structures,players.
 - Ability to define time, place and intensity of explosions.
+- AI bots (not in this version)
 
 
 INSTALLATION
