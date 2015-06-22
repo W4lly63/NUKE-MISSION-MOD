@@ -29,9 +29,9 @@ INSTALLATION
 
 - copy rad_zone.pbo  inside @EpochHive\addons
 -  add to your mission \init.sqf this lines
-//Radiation Zone
-[] execVM "scripts\nuke\RadiationZone.sqf";
-[] execVM "scripts\nuke\starter.sqf";
+-//Radiation Zone
+- [] execVM "scripts\nuke\RadiationZone.sqf";
+- [] execVM "scripts\nuke\starter.sqf";
 		  
 - add to your description.ext  sounds inside description.ext downloaded
 - open your mission.sqm with eliteness and merge code of mission.sqm file inside downloaded files
