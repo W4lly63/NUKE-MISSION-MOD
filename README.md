@@ -29,7 +29,7 @@ INSTALLATION
 
 - copy rad_zone.pbo  inside @EpochHive\addons
 -  add to your mission \init.sqf this lines
--//Radiation Zone
+- //Radiation Zone
 - [] execVM "scripts\nuke\RadiationZone.sqf";
 - [] execVM "scripts\nuke\starter.sqf";
 		  
