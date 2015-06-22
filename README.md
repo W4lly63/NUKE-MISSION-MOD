@@ -27,16 +27,16 @@ Description/Features
 
 INSTALLATION
 
-1 - copy rad_zone.pbo  inside @EpochHive\addons
-2-  add to your mission \init.sqf this lines
+- copy rad_zone.pbo  inside @EpochHive\addons
+-  add to your mission \init.sqf this lines
            //Radiation Zone
           [] execVM "scripts\nuke\RadiationZone.sqf";
           [] execVM "scripts\nuke\starter.sqf";
 		  
-3- add to your description.ext this soiunds (if u have cfgSounds put sounds inside class )
-4 - open your mission.sqm with eliteness and merge code of mission.sqm file inside downloaded files
-5 - copy sounds folder in your mission and merge if u have one...
-6- copy nuke folder in your scripts folder if u have one or copy scripts\nuke folder if u dont have one..
+- add to your description.ext this soiunds (if u have cfgSounds put sounds inside class )
+- open your mission.sqm with eliteness and merge code of mission.sqm file inside downloaded files
+- copy sounds folder in your mission and merge if u have one...
+- copy nuke folder in your scripts folder if u have one or copy scripts\nuke folder if u dont have one..
 DONE............
 		
 BE FILTERS
