@@ -1,0 +1,32 @@
+
+
+class CfgSounds
+{
+	
+	class s_geiger {
+		name = "s_geiger";
+		sound[] = {"sounds\geiger.ogg", 0.100000, 1};
+		titles[] = {};
+	};
+	class s_mask {
+		name = "s_mask";
+		sound[] = {"sounds\mask.ogg", 0.100000, 1};
+		titles[] = {};
+	};
+	class nuke {
+		name = "nuke";
+		sound[] = {"sounds\nuke.ogg", 1, 1};
+		titles[] = {};
+	};
+	class raid {
+		name = "raid";
+		sound[] = {"sounds\raid.ogg", 1, 1};
+		titles[] = {};
+	};
+	class explo {
+		name = "explo";
+		sound[] = {"sounds\explo.ogg", 1, 1};
+		titles[] = {};
+	};	
+};
+

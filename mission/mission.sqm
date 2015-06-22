@@ -1,0 +1,65 @@
+class Sensors  //if u have class sensor inside mission.sqm  add "class item" inside , change numbers itam0 item1 with progressive
+	{
+		items = 2;  
+
+		class Item0
+		{
+			position[] = {947.996,0.756651,7475.45};   // bornholm coords change with desired position
+			a = 500;
+			b = 500;
+			activationBy = "ANY";
+			repeating = 1;
+			interruptable = 1;
+			age = "UNKNOWN";
+			name = "radiationzone";
+			expCond = "(player distance radiationzone) < 500;";  // dimension of zone - change with your desired.
+			expActiv = "hint ""You have entered A Radiation Zone! "";  inRadiationZone = true; [] spawn NukeON;  [] spawn winds; [] spawn ash;";
+			expDesactiv = "hint ""You are leaving the Radiation Zone!""; inRadiationZone = false; [] spawn NukeOff;";
+			class Effects{};
+		};
+		class Item1
+		{
+			position[] = {947.996,0.756651,7475.45};  // bornholm coords change with desired position
+			a = 1000;
+			b = 1000;
+			activationBy = "ANY";
+			repeating = 1;
+			interruptable = 1;
+			age = "UNKNOWN";
+			name = "radiationzone2";
+			expCond = "(player distance radiationzone) < 1000;"; //dimension of zone where effects of explosions will be visible - change how u want...
+			expActiv = " [] spawn Bomb;";
+			expDesactiv = "";
+			class Effects{};
+		};
+	};
+	
+	
+	//if u have class Markers inside mission.sqm  add "class item" inside , change numbers itam0 item1 with progressive  and increase items=
+	
+	class Markers  
+	{
+		items = 2;
+		
+		class Item0
+		{
+			position[] = {947.996,0.756651,7475.45};
+			name = "radiationzone";
+			markerType = "ELLIPSE";
+			type = "Empty";
+			colorName = "ColorRed";
+			fillName = "Grid";
+			text = "Radiation Zone";
+			a = 500;
+			b = 500;
+		};
+		class Item1
+		{
+			position[] = {947.996,0.756651,7475.45};
+			name = "RAD";
+			text = "RADIATION ZONE";
+			type = "mil_dot";
+			colorName = "ColorBlack";
+		};
+	};
+};
