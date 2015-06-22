@@ -1,12 +1,15 @@
 # NUKE-MISSION-MOD
-Mission mod for Arma3 Epoch - Nuke zone mission 
+Mission mod for Arma3 Epoch 
+- Nuke zone mission 
 ///////////////////////////////////////////////////////////////////////////
 NUKE-MISSION-MOD  (ARMA3 EPOCH)
-inspired by some old arma2 mission mods (authors mentioned inside scripts)
+inspired by some old arma2 mission mods 
+(authors mentioned inside scripts)
 code by W4lly63
 //////////////////////////////////////////////////////////////////////////
 ALPHA 0.01 Version.  
-if someone want help / add /rework better contact me to giulfy@hotmail.com is welcome!!
+if someone want help / add /rework better 
+contact me to giulfy@hotmail.com is welcome!!
 
 ////////////////////////
 
