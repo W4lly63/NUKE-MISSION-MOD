@@ -44,11 +44,11 @@ BE FILTERS
 
 scripts.txt
 
-17  !="HideObject _x"
-48  !="player setDamage _damage;" !="_x setdamage 1" !="_x setdamage 0.7" !="_x setdamage 0.8"  !="_x setdamage 0.3"
+- 17  !="HideObject _x"
+- 48  !="player setDamage _damage;" !="_x setdamage 1" !="_x setdamage 0.7" !="_x setdamage 0.8"  !="_x setdamage 0.3"
 
 
 publicvariable.txt
 
 
-0  !="randomTimeBomb"		
+- 0  !="randomTimeBomb"		
