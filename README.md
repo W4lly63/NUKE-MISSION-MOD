@@ -36,7 +36,6 @@ INSTALLATION
 6- copy nuke folder in your scripts folder if u have one or copy scripts\nuke folder if u dont have one..
 DONE............
 		
-		
 BE FILTERS
 
 scripts.txt
@@ -48,4 +47,4 @@ scripts.txt
 publicvariable.txt
 
 
-#0  !="randomTimeBomb"
+#0  !="randomTimeBomb"		
