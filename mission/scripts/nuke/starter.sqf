@@ -12,7 +12,7 @@ Bomb=
               ((randomTimeBomb select 0) == 1 )
             };
 			
-			nukepos= (randomTimeBomb select 1);
+			nakps= (randomTimeBomb select 1);
 			
 			//----start alarm-----------------------
 			hint "RADIATIONZONE EXPLOSION IN 60 SEC:";
@@ -21,7 +21,7 @@ Bomb=
 			    };
 				//----------start nuke----------------
 			    if((randomTimeBomb select 0) == 2)then{
-			       [nukepos] execVM "scripts\nuke\nuke.sqf";		    
+			       [nakps] execVM "scripts\nuke\nuke.sqf";		    
 			    };	
 			
         };
