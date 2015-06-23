@@ -23,6 +23,9 @@ Description/Features
 
 - Radioactive explosione with particleeffect at random time inside Rzone with damage of buildings ,vehicles,structures,players.
 - Ability to define time, place and intensity of explosions.
+- Alarm before explosion 60 sec.
+- 
+
 - AI bots (not in this version)
 
 
