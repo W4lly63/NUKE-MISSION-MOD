@@ -7,7 +7,8 @@ inspired by some old arma2 mission mods
 (authors mentioned inside scripts)
 code by W4lly63
 
-ALPHA 0.01 Version.  (pre version - optimized 40%)
+ALPHA 0.01 Version.  (pre version - optimized 40%) 
+- coords inside scripts and mission.sqm are of Bornholm map (change for your map)
 if someone want help / add /rework better 
 contact me to giulfy@hotmail.com is welcome!!
 
