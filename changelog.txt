@@ -1,0 +1,4 @@
+ver 0.01 started version
+
+30-06-15 
+ver 0.02 added AI bots

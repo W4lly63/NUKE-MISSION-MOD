@@ -13,7 +13,7 @@ class Sensors  //if u have class sensor inside mission.sqm  add "class item" ins
 			age = "UNKNOWN";
 			name = "radiationzone";
 			expCond = "(player distance radiationzone) < 500;";  // dimension of zone - change with your desired.
-			expActiv = "hint ""You have entered A Radiation Zone! "";  inRadiationZone = true; [] spawn NukeON;  [] spawn winds; [] spawn ash;";
+			expActiv = "hint ""You have entered A Radiation Zone! "";  inRadiationZone = true; [] spawn NukeON;  [] spawn winds; [] spawn ash; []execVM 'scripts\nuke\DynamicAISpawn.sqf';";
 			expDesactiv = "hint ""You are leaving the Radiation Zone!""; inRadiationZone = false; [] spawn NukeOff;";
 			class Effects{};
 		};

@@ -7,7 +7,7 @@ inspired by some old arma2 mission mods
 (authors mentioned inside scripts)
 code by W4lly63
 
-ALPHA 0.01 Version.  (pre version - optimized 40%) 
+ALPHA 0.02 Version.  (pre version - optimized 40%) 
 - coords inside scripts and mission.sqm are of Bornholm map (change for your map)
 - if someone want help / add /rework better 
 contact me to giulfy@hotmail.com is welcome!!
@@ -25,7 +25,7 @@ Description/Features
 - Radioactive explosione with particleeffect at random time inside Rzone with damage of buildings ,vehicles,structures,players.
 - Ability to define time, place and intensity of explosions.
 - Alarm before explosion 60 sec.
-- AI bots (not in this version)
+- AI bots ability to define numbers of group, number in group, skills etc..
 
 
 INSTALLATION
@@ -54,3 +54,11 @@ publicvariable.txt
 
 
 - 0  !="randomTimeBomb"		
+
+remoteexexc.txt
+
+- 0  !="this allowFleeing 0"  !"["true", ""]"
+
+waypointcondition.txt and waypointstatement
+
+- 0     !"["true", ""]"
