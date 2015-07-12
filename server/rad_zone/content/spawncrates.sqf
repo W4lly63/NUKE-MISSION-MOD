@@ -109,7 +109,7 @@ box_array  = [];
    
 };
 
-nul = [box_array,spawnCenter] execVM "\x\addons\rad_crates\content\clean_replace.sqf";
+nul = [box_array,spawnCenter] execVM "\x\addons\rad_zone\content\clean_replace.sqf";
 	
 	
 

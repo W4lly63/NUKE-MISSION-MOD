@@ -33,7 +33,7 @@
 			    _crateFound = true;
 		    };
 		};
-		if (_crateTimedOut) exitWith {call compile preprocessFileLineNumbers "\x\addons\rad_crates\content\spawncrates.sqf";};
+		if (_crateTimedOut) exitWith {call compile preprocessFileLineNumbers "\x\addons\rad_zone\content\spawncrates.sqf";};
 		//uiSleep 15;
 	};
 	

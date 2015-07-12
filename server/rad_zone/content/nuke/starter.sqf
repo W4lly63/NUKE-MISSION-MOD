@@ -44,7 +44,7 @@ _stopper = 0;
 	        publicVariable "randomTimeBomb";
 		    //-----start nuke-----------------------
 			playSound3D [_soundToPlay2, radiationzone, false, _nukepos, 20, 1, 1000];
-			call compile preprocessfilelinenumbers "\x\addons\rad_crates\content\nuke\nuke_damage.sqf"; // damages in radius after explosion
+			call compile preprocessfilelinenumbers "\x\addons\rad_zone\content\nuke\nuke_damage.sqf"; // damages in radius after explosion
 			sleep 14;
 			playSound3D [_soundToPlay3, radiationzone, false, _nukepos, 20, 1, 1000];
 		    

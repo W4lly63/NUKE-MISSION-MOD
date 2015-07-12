@@ -1,5 +1,5 @@
 class CfgPatches {
-	class rad_crates {
+	class rad_zone {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
@@ -9,8 +9,8 @@ class CfgPatches {
 
 class CfgFunctions {
 	class RADC {
-		class RadCrates {
-			file = "x\addons\rad_crates\init";
+		class RadZone {
+			file = "x\addons\rad_zone\init";
 			class init {
 				preInit = 1;
 			};

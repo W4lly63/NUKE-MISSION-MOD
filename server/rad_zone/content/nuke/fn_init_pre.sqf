@@ -1,5 +1,5 @@
 if(isServer) then {
    
-   nul = [] execVM  "\x\addons\rad_crates\content\nuke\starter.sqf";
+   nul = [] execVM  "\x\addons\rad_zone\content\nuke\starter.sqf";
 
 };
